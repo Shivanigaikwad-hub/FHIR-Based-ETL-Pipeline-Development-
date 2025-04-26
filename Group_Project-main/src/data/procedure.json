@@ -1,0 +1,36 @@
+{
+  "resourceType": "Procedure",
+  "id": "149",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/216"
+  },
+  "performer": [
+    {
+      "actor": {
+        "reference": "Practitioner/4",
+        "display": "Dr. John Doe"
+      }
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "86273004",
+        "display": "Biopsy procedure"
+      }
+    ],
+    "text": "Biopsy procedure"
+  },
+  "note": [
+    {
+      "text": "Routine biopsy conducted. Tissue samples sent for pathological analysis."
+    }
+  ],
+  "followUp": [
+    {
+      "text": "Follow-up scheduled in 2 weeks for result discussion."
+    }
+  ]
+}
