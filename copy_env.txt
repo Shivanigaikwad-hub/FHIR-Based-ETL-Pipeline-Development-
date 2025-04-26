@@ -1,0 +1,1 @@
+BASE_SERVER_URL = "http://137.184.71.65:8080/fhir"
